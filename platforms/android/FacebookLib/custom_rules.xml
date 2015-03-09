@@ -2,7 +2,7 @@
 <project>
     <target name="-post-compile">
         <copy todir="bin">
-            <fileset dir="ant-build"/>
+            <fileset dir="ant-build" erroronmissingdir="false"/>
         </copy>
     </target>
 </project>
